@@ -6,7 +6,12 @@ import HelloWorld from './components/HelloWorld'
 import Button from './components/Button'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Button text="Click Me" />, document.getElementById('root'));
+const texts = {
+  text: 'Click',
+  text2: 'Click2',
+  text3: 'Click3'
+}
+ReactDOM.render(<Button {...texts} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
