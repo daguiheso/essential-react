@@ -12,6 +12,7 @@ const texts = {
   text3: 'Click3'
 }
 ReactDOM.render(<Button {...texts} />, document.getElementById('root'));
+// ReactDOM.render(<HelloWorld />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
